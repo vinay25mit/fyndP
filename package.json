@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"cd server&node index.js",
-    "build":"cd frontend/student&npm run build",
+    "start":"cd server&&node index.js",
+    "build":"cd server&&npm install&&cd ../frontend/student&&npm install&&npm run build ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
