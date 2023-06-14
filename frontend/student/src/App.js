@@ -11,7 +11,7 @@ function App() {
 
   const handleSearch = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/getdata/students', {
+      const response = await axios.get('/getdata/students', {
         params: {
           email: searchEmail,
           regNo: searchRegNo,
